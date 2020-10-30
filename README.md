@@ -19,9 +19,9 @@ The object's content can migrate through the network between the two endpoints. 
 # Client Server without transfer 
 The server have the access to the client's paths. He can read/write the client's files.
 # Object's Versions management Policies:
-1- Global Policy: the user can set a maximum number of versions to store for each created object. Any creation of a new version that exceeds the maximum number of versions should follow the deletion of the oldest existing version.
-2-Dynamic Policy : same as the the global policy, but a creation of any new version is preceded by deleting 25% of the oldest versions.
-3- Each Object have its Policy.
+1. Global Policy: the user can set a maximum number of versions to store for each created object. Any creation of a new version that exceeds the maximum number of versions should follow the deletion of the oldest existing version.
+2. Dynamic Policy : same as the the global policy, but a creation of any new version is preceded by deleting 25% of the oldest versions.
+3. Each Object have its Policy.
 # Prerequisites
 You can use the program localy or remotely. You should install SQLITE3.
 Before executing the Client Server interaction, make sure that SQLITE3 is installed besides the Server Side.
